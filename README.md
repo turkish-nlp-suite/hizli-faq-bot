@@ -14,6 +14,6 @@ If you would like to do some pair-programming please visit the associated playli
 
 For more Turkish NLP, you can visit my [website]() and [Medium blog](https://medium.com/@duygu.altinok12) or even better watch videos on my [Youtube channel](https://www.youtube.com/channel/UCXGITYr91nNBQELciqVv6iw).  
 
-This work is supported by Google Developer Experts Program and part of my winter campaign "Turkish NLP with Duygu".
+This work is supported by Google Developer Experts Program and part of my FW 2022 campaign "Turkish NLP with Duygu".
 
 
