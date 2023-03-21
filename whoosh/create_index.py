@@ -1,3 +1,4 @@
+import os
 import spacy
 from whoosh.index import create_in
 from whoosh.fields import *
@@ -20,6 +21,8 @@ def lemmatize_sentence(sent):
 def create_index(html_page):
   questions, answers = extract_ques_and_answers(kredi_html)
   schema = Schema(question=TEXT(stored=True), answer=TEXT(stored=True))
+  if not os.path.isdir(indexdir):
+    os.mkdir(indexdir)
   ix = create_in(indexdir, schema)
   writer = ix.writer()
 
